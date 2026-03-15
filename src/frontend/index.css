@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --background: 0.97 0 0;
+    --foreground: 0.18 0.02 240;
+    --card: 1 0 0;
+    --card-foreground: 0.18 0.02 240;
+    --popover: 1 0 0;
+    --popover-foreground: 0.18 0.02 240;
+    --primary: 0.24 0.08 225;
+    --primary-foreground: 0.98 0 0;
+    --secondary: 0.47 0.1 175;
+    --secondary-foreground: 0.98 0 0;
+    --muted: 0.94 0 0;
+    --muted-foreground: 0.45 0 0;
+    --accent: 0.82 0.18 85;
+    --accent-foreground: 0.12 0 0;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.88 0 0;
+    --input: 0.88 0 0;
+    --ring: 0.24 0.08 225;
+    --chart-1: 0.47 0.1 175;
+    --chart-2: 0.24 0.08 225;
+    --chart-3: 0.82 0.18 85;
+    --chart-4: 0.6 0.118 184.704;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.985 0 0;
+    --sidebar-foreground: 0.145 0 0;
+    --sidebar-primary: 0.24 0.08 225;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.97 0 0;
+    --sidebar-accent-foreground: 0.205 0 0;
+    --sidebar-border: 0.922 0 0;
+    --sidebar-ring: 0.708 0 0;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F7FA;
+    color: #2C3E50;
+  }
+}
+
+.pharma-blue { color: #0A3D62; }
+.pharma-teal { color: #16A085; }
+.pharma-gold { color: #F1C40F; }
+.bg-pharma-blue { background-color: #0A3D62; }
+.bg-pharma-teal { background-color: #16A085; }
+.bg-pharma-gold { background-color: #F1C40F; }
+.border-pharma-blue { border-color: #0A3D62; }
+.border-pharma-teal { border-color: #16A085; }
